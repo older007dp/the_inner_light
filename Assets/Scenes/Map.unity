@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 26949611}
   - component: {fileID: 26949610}
   - component: {fileID: 26949609}
+  - component: {fileID: 26949612}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -194,6 +195,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 35, y: 35, z: 0}
+--- !u!114 &26949612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26949608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c693dc961a304484a902afe3a3cc1bac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1026565697 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1026565697, guid: 2c1f3e5058928d44cbb35d08b45ac9e9,
@@ -486,11 +499,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 523637563443945219, guid: 907fd825e3988774caab4234b943bf44,
-        type: 3}
-      propertyPath: m_Radius
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 523637563443945218, guid: 907fd825e3988774caab4234b943bf44,
         type: 3}
       propertyPath: TargetTags.Array.size
@@ -500,6 +508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: TargetTags.Array.data[0]
       value: Item
+      objectReference: {fileID: 0}
+    - target: {fileID: 523637563443945219, guid: 907fd825e3988774caab4234b943bf44,
+        type: 3}
+      propertyPath: m_Radius
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 907fd825e3988774caab4234b943bf44, type: 3}
@@ -584,10 +597,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.31800002
       objectReference: {fileID: 0}
-    - target: {fileID: 1026565699, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
-      propertyPath: ItemData.Image
-      value: 
-      objectReference: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 8196590, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -624,6 +633,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1026565699, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
+      propertyPath: ItemData.Image
+      value: 
+      objectReference: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
 --- !u!1001 &6581283789150758531
@@ -754,13 +767,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1634641438, guid: 9ddd40ec5614b3f4c90a5b58b9fe6d4f, type: 3}
-      propertyPath: ItemData.Image
-      value: 
-      objectReference: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 1573381422, guid: 9ddd40ec5614b3f4c90a5b58b9fe6d4f, type: 3}
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1634641438, guid: 9ddd40ec5614b3f4c90a5b58b9fe6d4f, type: 3}
+      propertyPath: ItemData.Image
+      value: 
+      objectReference: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ddd40ec5614b3f4c90a5b58b9fe6d4f, type: 3}

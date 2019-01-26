@@ -1156,4 +1156,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a92903b9e7245644693a4f77c2c13758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetTags: []
+  TargetTags:
+  - Item

@@ -7,7 +7,7 @@ namespace Interfaces
     {
         bool CanInteractive { get; set; }
 
-        Action TryToCatchItem { get; set; }
+        event Action TryToCatchItem;
 
         void AddItemToInventory(ITargetObject targetObject);
     }
