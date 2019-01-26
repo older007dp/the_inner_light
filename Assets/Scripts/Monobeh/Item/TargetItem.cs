@@ -32,7 +32,6 @@ namespace Monobeh.Item
 
         public void Grab()
         {
-            
             DI.Get<IItemPreview>().Show(ItemData.Image);
             DI.Get<ItemCollectionCreator>().AddData(ItemData);
             //move to ui

@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monobeh/Player/PlayerManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-101">
-              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+            <state relative-caret-position="-245">
+              <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
               <folding>
                 <marker date="1548516867761" expanded="false" signature="6:108" ph="..." />
                 <marker date="1548516867761" expanded="true" signature="134:2138" ph="{...}" />
@@ -91,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monobeh/Player/PlayerTarget.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="560">
+              <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
               <folding>
                 <marker date="1548518237095" expanded="false" signature="6:94" ph="..." />
                 <marker date="1548518237095" expanded="true" signature="120:1958" ph="{...}" />
@@ -116,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataStructures/ItemData.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <marker date="1548505483330" expanded="false" signature="6:32" ph="..." />
                 <marker date="1548505483330" expanded="true" signature="58:171" ph="{...}" />
@@ -263,12 +263,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548497769730</updated>
       <workItem from="1548497772380" duration="14000" />
-      <workItem from="1548497846855" duration="10770000" />
+      <workItem from="1548497846855" duration="11466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10784000" />
+    <option name="totallyTimeSpent" value="11480000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -329,19 +329,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Monobeh/Player/PlayerTarget.cs</url>
-          <line>37</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Monobeh/Player/PlayerTarget.cs" initialLine="35">
-            <startOffsets>
-              <option value="1063" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1064" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -433,7 +420,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataStructures/ItemData.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <marker date="1548505483330" expanded="false" signature="6:32" ph="..." />
             <marker date="1548505483330" expanded="true" signature="58:171" ph="{...}" />
@@ -475,8 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monobeh/Player/PlayerManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        <state relative-caret-position="-245">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
           <folding>
             <marker date="1548516867761" expanded="false" signature="6:108" ph="..." />
             <marker date="1548516867761" expanded="true" signature="134:2138" ph="{...}" />
@@ -496,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monobeh/Player/PlayerTarget.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="560">
+          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
           <folding>
             <marker date="1548518237095" expanded="false" signature="6:94" ph="..." />
             <marker date="1548518237095" expanded="true" signature="120:1958" ph="{...}" />
