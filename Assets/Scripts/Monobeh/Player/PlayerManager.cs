@@ -14,8 +14,14 @@ namespace Monobeh.Player
             get => PlayerInteractive;
             set => PlayerInteractive = value;
         }
+        
+        public event Action TryToCatchItem
+        {
+            add { TryToCatchItemCallback += value; }
+            remove { TryToCatchItemCallback -= value; }
+        }
 
-        public Action TryToCatchItem { get; set; }
+        private event Action TryToCatchItemCallback;
         
         private bool PlayerInteractive = true;
 
@@ -51,13 +57,14 @@ namespace Monobeh.Player
             
             Movement();
             SomeAction();
+            DI.Get<FollowCamera>()?.NotifyPosition(transform.position);
         }
 
         private void SomeAction()
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                TryToCatchItem?.Invoke();
+                TryToCatchItemCallback?.Invoke();
             }
         }
 
