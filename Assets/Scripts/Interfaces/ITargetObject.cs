@@ -2,6 +2,7 @@
 {
     public interface ITargetObject
     {
-        void Glow();
+        void Glow(bool enable);
+        void Grab();
     }
 }

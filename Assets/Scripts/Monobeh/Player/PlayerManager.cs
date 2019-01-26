@@ -17,6 +17,12 @@ namespace Monobeh.Player
         public Action TryToCatchItem { get; set; }
         
         private bool PlayerInteractive = true;
+
+        [SerializeField] 
+        private int ItemsCount = 0;
+        
+        [SerializeField] 
+        private float Speed;
         
         [SerializeField]
         private Rigidbody2D CharacterController;
@@ -61,12 +67,14 @@ namespace Monobeh.Player
 
             Debug.Log(moveVector);
 
-            CharacterController.velocity = moveVector;
+            CharacterController.velocity = moveVector * Speed;
         }
 
         public void AddItemToInventory(ITargetObject targetObject)
         {
             Inventory.Add(targetObject);
+
+            ItemsCount = Inventory.Count;
         }
     }
 }
