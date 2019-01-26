@@ -40,6 +40,9 @@
               <e p="IDataSetter.cs" t="Include" />
             </e>
           </e>
+          <e p="DataStructures" t="Include">
+            <e p="ItemData.cs" t="Include" />
+          </e>
           <e p="Interfaces" t="Include">
             <e p="IGlow.cs" t="Include" />
             <e p="IPlayerManager.cs" t="Include" />

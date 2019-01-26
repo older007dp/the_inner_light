@@ -1,4 +1,5 @@
-﻿using Interfaces;
+﻿using DataStructures;
+using Interfaces;
 using UnityEngine;
 
 namespace Monobeh.Item
@@ -6,7 +7,7 @@ namespace Monobeh.Item
     public class TargetItem : MonoBehaviour, ITargetObject
     {
         [SerializeField] 
-        private int Id;
+        private ItemData ItemData;
         
         [SerializeField]
         private IGlow GlowEffect;
@@ -14,14 +15,15 @@ namespace Monobeh.Item
         [SerializeField] 
         private SpriteRenderer SpriteRenderer;
 
-        [SerializeField] 
-        private Sprite TargetSprite;
-
         private void Start()
         {
-            if (TargetSprite == null)
+            if (ItemData.Image == null)
             {
-                TargetSprite = SpriteRenderer.sprite;
+                ItemData.Image = SpriteRenderer.sprite;
+            }
+            else
+            {
+                SpriteRenderer.sprite = ItemData.Image;
             }
 
             GlowEffect = GetComponentInChildren<IGlow>(true);
@@ -43,6 +45,6 @@ namespace Monobeh.Item
             //move to ui
         }
 
-        public Sprite ObjectSprite => TargetSprite;
+        public Sprite ObjectSprite => ItemData.Image;
     }
 }
