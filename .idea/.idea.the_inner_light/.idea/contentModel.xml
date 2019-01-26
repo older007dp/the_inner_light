@@ -21,6 +21,7 @@
             <e p="readme.txt" t="Include" />
           </e>
         </e>
+        <e p="ItemPlace.cs" t="Include" />
         <e p="Kenney Assets" t="Include">
           <e p="Furniture Pack" t="Include">
             <e p="License.txt" t="Include" />
@@ -65,6 +66,7 @@
           </e>
           <e p="Interfaces" t="Include">
             <e p="IGlow.cs" t="Include" />
+            <e p="IItemPlace.cs" t="Include" />
             <e p="IItemPreview.cs" t="Include" />
             <e p="IPlayerManager.cs" t="Include" />
             <e p="ITargetObject.cs" t="Include" />

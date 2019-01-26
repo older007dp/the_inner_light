@@ -1,6 +1,9 @@
 using DataStructures;
+using DefaultNamespace;
 using DefaultNamespace.Interfaces;
+using Interfaces;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace System.Collections.Generic
@@ -9,15 +12,23 @@ namespace System.Collections.Generic
     {
         [SerializeField] private ItemData Data;
         [SerializeField] private Image Image;
+        [SerializeField] private Button Button;
 
         public void SetData(ItemData data)
         {
+            Button.onClick.AddListener(OnPointerClick);
             Data = data;
 
             if (Image != null)
             {
                 Image.sprite = Data.Image;
             }
+        }
+
+
+        public void OnPointerClick()
+        {
+            DI.Get<IPlayerManager>().ItemData = Data;
         }
     }
 }

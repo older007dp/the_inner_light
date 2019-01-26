@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using DataStructures;
 using DefaultNamespace;
 using Interfaces;
 using UnityEngine;
@@ -88,5 +89,8 @@ namespace Monobeh.Player
 
             ItemsCount = Inventory.Count;
         }
+
+        public int ItemId { get; set; }
+        public ItemData ItemData { get; set; }
     }
 }

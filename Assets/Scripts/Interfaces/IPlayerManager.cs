@@ -1,4 +1,5 @@
 ﻿using System;
+using DataStructures;
 using UnityEngine;
 
 namespace Interfaces
@@ -10,5 +11,6 @@ namespace Interfaces
         Action TryToCatchItem { get; set; }
 
         void AddItemToInventory(ITargetObject targetObject);
+        ItemData ItemData { get; set; }
     }
 }

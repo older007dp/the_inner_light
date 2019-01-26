@@ -4,8 +4,8 @@ namespace Interfaces
 {
     public interface ITargetObject
     {
+        int Id { get; }
         void Glow(bool enable);
         void Grab();
-        Sprite ObjectSprite { get; }
     }
 }

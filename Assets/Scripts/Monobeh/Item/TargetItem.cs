@@ -9,15 +9,18 @@ namespace Monobeh.Item
     public class TargetItem : MonoBehaviour, ITargetObject
     {
         [SerializeField] 
-        private ItemData ItemData;
+        public ItemData ItemData;
         
         [SerializeField]
         private IGlow GlowEffect;
 
         private void Start()
         {
+            ItemData.Gm = gameObject;
             GlowEffect = GetComponentInChildren<IGlow>(true);
         }
+
+        public int Id => ItemData.Id;
 
         public void Glow(bool enable)
         {
@@ -34,10 +37,10 @@ namespace Monobeh.Item
         {
             DI.Get<IItemPreview>().Show(ItemData.Image);
             DI.Get<ItemCollectionCreator>().AddData(ItemData);
+            
+            gameObject.SetActive(false);
             //move to ui
-            Destroy(gameObject);
+            GlowEffect.DefaultEndDisable();
         }
-
-        public Sprite ObjectSprite => ItemData.Image;
     }
 }
