@@ -28,10 +28,32 @@ namespace Monobeh.Player
                 }
                 
                 PlayerManager.AddItemToInventory(target);
+                ObjectsInTarget.Remove(target);
+                
+                target.Grab();
             }
         }
 
-        private void OnTriggerEnter(Collider other)
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            Debug.LogWarning(other.tag);
+            
+            if (TargetTags.Contains(other.tag))
+            {
+                var targetObj = other.GetComponent<ITargetObject>();
+
+                if (targetObj == null)
+                {
+                    return;
+                }
+                
+                targetObj.Glow(true);
+                
+                ObjectsInTarget.Add(targetObj);
+            }
+        }
+        
+        private void OnTriggerExit2D(Collider2D other)
         {
             if (TargetTags.Contains(other.tag))
             {
@@ -42,20 +64,7 @@ namespace Monobeh.Player
                     return;
                 }
                 
-                ObjectsInTarget.Add(targetObj);
-            }
-        }
-        
-        private void OnTriggerExit(Collider other)
-        {
-            if (TargetTags.Contains(other.tag))
-            {
-                var targetObj = other.GetComponent<ITargetObject>();
-
-                if (targetObj == null)
-                {
-                    return;
-                }
+                targetObj.Glow(false);
                 
                 ObjectsInTarget.Remove(targetObj);
             }

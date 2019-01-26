@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6111309697911594025}
   - component: {fileID: 6111309697911594022}
   - component: {fileID: 6111309697911594023}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.25
+  m_Radius: 2
 --- !u!114 &6111309697911594023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,7 +60,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a92903b9e7245644693a4f77c2c13758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetTags: []
+  TargetTags:
+  - Item
 --- !u!1 &6111309699079978891
 GameObject:
   m_ObjectHideFlags: 0
@@ -71,7 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6111309699079978888}
   - component: {fileID: 6111309699079978889}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Physics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,6 +245,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d86cb392be8af64abcb08ae0e3d37ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ItemsCount: 0
+  Speed: 3.25
   CharacterController: {fileID: 6111309699731773171}
   PlayerTarget: {fileID: 6111309697911594023}
 --- !u!50 &6111309699731773171
