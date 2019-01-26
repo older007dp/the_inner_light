@@ -35,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monobeh/Player/PlayerTarget.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="194">
               <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding>
                 <marker date="1548504339660" expanded="true" signature="6:94" ph="..." />
@@ -59,11 +59,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Interfaces/ITargetObject.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="96">
+              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding>
-                <marker date="1548504317774" expanded="true" signature="20:124" ph="{...}" />
-                <marker date="1548504317774" expanded="true" signature="57:122" ph="{...}" />
+                <marker date="1548504708587" expanded="true" signature="40:181" ph="{...}" />
+                <marker date="1548504708587" expanded="true" signature="77:179" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -72,16 +72,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monobeh/Item/TargetItem.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="283">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <marker date="1548504375996" expanded="true" signature="6:36" ph="..." />
-                <marker date="1548504375996" expanded="true" signature="60:673" ph="{...}" />
-                <marker date="1548504375996" expanded="true" signature="121:671" ph="{...}" />
-                <marker date="1548504375996" expanded="true" signature="275:357" ph="{...}" />
-                <marker date="1548504375996" expanded="true" signature="396:592" ph="{...}" />
-                <marker date="1548504375996" expanded="true" signature="430:525" ph="{...}" />
-                <marker date="1548504375996" expanded="true" signature="620:665" ph="{...}" />
+                <marker date="1548504763684" expanded="true" signature="6:36" ph="..." />
+                <marker date="1548504763684" expanded="true" signature="60:985" ph="{...}" />
+                <marker date="1548504763684" expanded="true" signature="121:983" ph="{...}" />
+                <marker date="1548504763684" expanded="true" signature="413:616" ph="{...}" />
+                <marker date="1548504763684" expanded="true" signature="461:543" ph="{...}" />
+                <marker date="1548504763684" expanded="true" signature="655:851" ph="{...}" />
+                <marker date="1548504763684" expanded="true" signature="689:784" ph="{...}" />
+                <marker date="1548504763684" expanded="true" signature="879:924" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -138,8 +139,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/IGlow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Monobeh/Item/GlowEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Monobeh/Player/PlayerManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/ITargetObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Monobeh/Player/PlayerTarget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/ITargetObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Monobeh/Item/TargetItem.cs" />
       </list>
     </option>
@@ -235,12 +236,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548497769730</updated>
       <workItem from="1548497772380" duration="14000" />
-      <workItem from="1548497846855" duration="5126000" />
+      <workItem from="1548497846855" duration="5839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5140000" />
+    <option name="totallyTimeSpent" value="5853000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,18 +379,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Interfaces/ITargetObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="96">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding>
-            <marker date="1548504317774" expanded="true" signature="20:124" ph="{...}" />
-            <marker date="1548504317774" expanded="true" signature="57:122" ph="{...}" />
+            <marker date="1548504708587" expanded="true" signature="40:181" ph="{...}" />
+            <marker date="1548504708587" expanded="true" signature="77:179" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monobeh/Player/PlayerTarget.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="194">
           <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <marker date="1548504339660" expanded="true" signature="6:94" ph="..." />
@@ -411,16 +412,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monobeh/Item/TargetItem.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="283">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <marker date="1548504375996" expanded="true" signature="6:36" ph="..." />
-            <marker date="1548504375996" expanded="true" signature="60:673" ph="{...}" />
-            <marker date="1548504375996" expanded="true" signature="121:671" ph="{...}" />
-            <marker date="1548504375996" expanded="true" signature="275:357" ph="{...}" />
-            <marker date="1548504375996" expanded="true" signature="396:592" ph="{...}" />
-            <marker date="1548504375996" expanded="true" signature="430:525" ph="{...}" />
-            <marker date="1548504375996" expanded="true" signature="620:665" ph="{...}" />
+            <marker date="1548504763684" expanded="true" signature="6:36" ph="..." />
+            <marker date="1548504763684" expanded="true" signature="60:985" ph="{...}" />
+            <marker date="1548504763684" expanded="true" signature="121:983" ph="{...}" />
+            <marker date="1548504763684" expanded="true" signature="413:616" ph="{...}" />
+            <marker date="1548504763684" expanded="true" signature="461:543" ph="{...}" />
+            <marker date="1548504763684" expanded="true" signature="655:851" ph="{...}" />
+            <marker date="1548504763684" expanded="true" signature="689:784" ph="{...}" />
+            <marker date="1548504763684" expanded="true" signature="879:924" ph="{...}" />
           </folding>
         </state>
       </provider>
