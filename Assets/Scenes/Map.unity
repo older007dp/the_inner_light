@@ -385,6 +385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Controller Model
       objectReference: {fileID: 0}
+    - target: {fileID: 1026565696, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1026565697, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.36930466
@@ -428,6 +432,42 @@ PrefabInstance:
     - target: {fileID: 1026565697, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.31800002
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196590, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691044407, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829821701, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092839090, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 84870177, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1073940000, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336138094, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 485196159, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 117529281, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c1f3e5058928d44cbb35d08b45ac9e9, type: 3}
@@ -511,6 +551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: teapot
       objectReference: {fileID: 0}
+    - target: {fileID: 1634641435, guid: 9ddd40ec5614b3f4c90a5b58b9fe6d4f, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1634641436, guid: 9ddd40ec5614b3f4c90a5b58b9fe6d4f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -44.126167
@@ -553,6 +597,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1634641436, guid: 9ddd40ec5614b3f4c90a5b58b9fe6d4f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1573381422, guid: 9ddd40ec5614b3f4c90a5b58b9fe6d4f, type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
