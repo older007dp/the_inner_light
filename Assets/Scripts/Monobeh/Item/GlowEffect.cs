@@ -7,27 +7,25 @@ namespace Monobeh.Item
     public class GlowEffect : MonoBehaviour, IGlow
     {
         [SerializeField]
-        private Light Light;
+        private ParticleSystem ParticleSystem;
 
         [SerializeField] [Range(0, 1)] private float Max;
-
-        private Tweener Tweener;
         
         private void Awake()
         {
-            Light = GetComponent<Light>();
-            Light.intensity = 0;
+            ParticleSystem = GetComponent<ParticleSystem>();
+
+            DefaultEndDisable();
         }
 
         public void StartAndPlay()
         {
-            Tweener = Light.DOIntensity(Max, 3.5f);
+            ParticleSystem.Play();
         }
 
         public void DefaultEndDisable()
         {
-            Tweener.Kill();
-            Tweener = Light.DOIntensity(0, 0.25f);
+            ParticleSystem.Stop();
         }
     }
 }

@@ -34,7 +34,7 @@ namespace Monobeh.Player
             }
         }
 
-        private void OnTriggerEnter2D(Collider2D other)
+        private void OnTriggerEnter(Collider other)
         {
             Debug.LogWarning(other.tag);
             
@@ -53,7 +53,7 @@ namespace Monobeh.Player
             }
         }
         
-        private void OnTriggerExit2D(Collider2D other)
+        private void OnTriggerExit(Collider other)
         {
             if (TargetTags.Contains(other.tag))
             {

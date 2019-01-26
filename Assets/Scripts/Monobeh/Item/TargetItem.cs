@@ -14,20 +14,8 @@ namespace Monobeh.Item
         [SerializeField]
         private IGlow GlowEffect;
 
-        [SerializeField] 
-        private SpriteRenderer SpriteRenderer;
-
         private void Start()
         {
-            if (ItemData.Image == null)
-            {
-                ItemData.Image = SpriteRenderer.sprite;
-            }
-            else
-            {
-                SpriteRenderer.sprite = ItemData.Image;
-            }
-
             GlowEffect = GetComponentInChildren<IGlow>(true);
         }
 
