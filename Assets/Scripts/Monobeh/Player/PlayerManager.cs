@@ -25,12 +25,16 @@ namespace Monobeh.Player
         private float Speed;
         
         [SerializeField]
-        private Rigidbody2D CharacterController;
+        private CharacterController CharacterController;
 
         [SerializeField]
         private PlayerTarget PlayerTarget;
 
-        [SerializeField] private List<ITargetObject> Inventory = new List<ITargetObject>();
+        [SerializeField] 
+        private Animator Animator;
+        
+        [SerializeField] 
+        private List<ITargetObject> Inventory = new List<ITargetObject>();
 
         private void Awake()
         {
@@ -63,9 +67,19 @@ namespace Monobeh.Player
             var xAxis = Input.GetAxis("Horizontal");
             var yAxis = Input.GetAxis("Vertical");
         
-            var moveVector = new Vector2(xAxis, yAxis);
+            var moveVector = new Vector3(xAxis, 0, yAxis);
+            var zero = moveVector.Equals(Vector3.zero);
+            
+            CharacterController.Move(moveVector / 2);
 
-            CharacterController.velocity = moveVector * Speed;
+            Animator.SetBool("Walk_forward", !zero);
+            
+            if(zero)
+            {
+                return;
+            }
+            
+            CharacterController.transform.forward = moveVector;
         }
 
         public void AddItemToInventory(ITargetObject targetObject)

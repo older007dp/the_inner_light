@@ -21,11 +21,26 @@
             <e p="readme.txt" t="Include" />
           </e>
         </e>
+        <e p="Kenney Assets" t="Include">
+          <e p="Furniture Pack" t="Include">
+            <e p="License.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Mixamo" t="Include">
+          <e p="Magic Pack" t="Include">
+            <e p="Demo" t="Include">
+              <e p="CameraScroll.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Core" t="Include">
             <e p="AppRoot.cs" t="Include" />
             <e p="CollectionCreator" t="Include">
               <e p="CollectionCreator.cs" t="Include" />
+              <e p="ConcreteCollectionCreators" t="Include">
+                <e p="ItemCollectionCreator.cs" t="Include" />
+              </e>
             </e>
             <e p="Collections" t="Include">
               <e p="CachedDictionary.cs" t="Include" />
@@ -42,6 +57,11 @@
           </e>
           <e p="DataStructures" t="Include">
             <e p="ItemData.cs" t="Include" />
+          </e>
+          <e p="Game" t="Include">
+            <e p="View" t="Include">
+              <e p="ItemView.cs" t="Include" />
+            </e>
           </e>
           <e p="Interfaces" t="Include">
             <e p="IGlow.cs" t="Include" />
