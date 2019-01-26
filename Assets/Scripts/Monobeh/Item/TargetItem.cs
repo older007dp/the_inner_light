@@ -1,4 +1,5 @@
 ﻿using DataStructures;
+using DefaultNamespace;
 using Interfaces;
 using UnityEngine;
 
@@ -42,6 +43,8 @@ namespace Monobeh.Item
 
         public void Grab()
         {
+            
+            DependencyManager.Get<IItemPreview>().Show(ItemData.Image);
             //move to ui
         }
 
