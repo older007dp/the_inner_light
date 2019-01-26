@@ -11,8 +11,19 @@ namespace Monobeh.Item
         [SerializeField]
         private IGlow GlowEffect;
 
+        [SerializeField] 
+        private SpriteRenderer SpriteRenderer;
+
+        [SerializeField] 
+        private Sprite TargetSprite;
+
         private void Start()
         {
+            if (TargetSprite == null)
+            {
+                TargetSprite = SpriteRenderer.sprite;
+            }
+
             GlowEffect = GetComponentInChildren<IGlow>(true);
         }
 
@@ -31,5 +42,7 @@ namespace Monobeh.Item
         {
             //move to ui
         }
+
+        public Sprite ObjectSprite => TargetSprite;
     }
 }

@@ -24,7 +24,21 @@
         <e p="Scripts" t="Include">
           <e p="Core" t="Include">
             <e p="AppRoot.cs" t="Include" />
+            <e p="CollectionCreator" t="Include">
+              <e p="CollectionCreator.cs" t="Include" />
+            </e>
+            <e p="Collections" t="Include">
+              <e p="CachedDictionary.cs" t="Include" />
+              <e p="DictionaryBase.cs" t="Include" />
+              <e p="ExtendedDictionary.cs" t="Include" />
+            </e>
             <e p="DependencyManager.cs" t="Include" />
+            <e p="extensions" t="Include">
+              <e p="UnityExtentions.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="IDataSetter.cs" t="Include" />
+            </e>
           </e>
           <e p="Interfaces" t="Include">
             <e p="IGlow.cs" t="Include" />
