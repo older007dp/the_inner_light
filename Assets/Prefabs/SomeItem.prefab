@@ -204,4 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ab40f7b976610140aead573db7555f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 0
+  ItemData:
+    Id: 1
+    Image: {fileID: 0}
+  SpriteRenderer: {fileID: 9041444611123516043}

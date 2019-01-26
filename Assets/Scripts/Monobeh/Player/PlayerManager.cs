@@ -65,8 +65,6 @@ namespace Monobeh.Player
         
             var moveVector = new Vector2(xAxis, yAxis);
 
-            Debug.Log(moveVector);
-
             CharacterController.velocity = moveVector * Speed;
         }
 
