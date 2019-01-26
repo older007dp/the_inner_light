@@ -1,4 +1,5 @@
-﻿using DataStructures;
+﻿using Core.CollectionCreator.ConcreteCollectionCreators;
+using DataStructures;
 using DefaultNamespace;
 using Interfaces;
 using UnityEngine;
@@ -44,8 +45,10 @@ namespace Monobeh.Item
         public void Grab()
         {
             
-            DependencyManager.Get<IItemPreview>().Show(ItemData.Image);
+            DI.Get<IItemPreview>().Show(ItemData.Image);
+            DI.Get<ItemCollectionCreator>().AddData(ItemData);
             //move to ui
+            Destroy(gameObject);
         }
 
         public Sprite ObjectSprite => ItemData.Image;

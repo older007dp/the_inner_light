@@ -83,6 +83,12 @@ namespace Core.CollectionCreator
             {
                 transform.CleanChildren();
             }
+            
+            Init();
+        }
+
+        protected virtual void Init()
+        {
         }
     }
 }
