@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2491665898937666426}
   m_Layer: 0
-  m_Name: StartCutscene
+  m_Name: EndCutscene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -125,7 +125,7 @@ PrefabInstance:
     - target: {fileID: 3878188726898705667, guid: aa3d41f7bd541fb40ba095e4cee3a835,
         type: 3}
       propertyPath: m_Name
-      value: StartAnim
+      value: EndAnim
       objectReference: {fileID: 0}
     - target: {fileID: 3878188726899136867, guid: aa3d41f7bd541fb40ba095e4cee3a835,
         type: 3}
@@ -200,7 +200,7 @@ PrefabInstance:
     - target: {fileID: 7865188658717588786, guid: e874994cfce5b7b4c81201ae93f81599,
         type: 3}
       propertyPath: m_Name
-      value: PlayerStartAnim
+      value: PlayerEndAnim
       objectReference: {fileID: 0}
     - target: {fileID: 7865188658717588785, guid: e874994cfce5b7b4c81201ae93f81599,
         type: 3}
