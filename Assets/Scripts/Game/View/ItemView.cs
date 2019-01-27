@@ -21,7 +21,7 @@ namespace System.Collections.Generic
 
             if (Image != null)
             {
-                Image.sprite = Data.Image;
+                Image.sprite = Data.PreviewImage;
             }
         }
 

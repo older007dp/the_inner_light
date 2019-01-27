@@ -8,6 +8,6 @@ namespace DataStructures
     {
         public int Id;
         public Sprite Image;
-        public GameObject Gm;
+        public Sprite PreviewImage;
     }
 }

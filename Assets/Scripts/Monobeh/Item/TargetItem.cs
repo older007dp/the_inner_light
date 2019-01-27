@@ -16,7 +16,6 @@ namespace Monobeh.Item
 
         private void Start()
         {
-            ItemData.Gm = gameObject;
             GlowEffect = GetComponentInChildren<IGlow>(true);
         }
 
