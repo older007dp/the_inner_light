@@ -53,6 +53,8 @@ namespace Monobeh.Player
         private void Awake()
         {
             DependencyManager.Add<IPlayerManager>(this);
+            PlayableDirector.gameObject.SetActive(false);
+            Application.targetFrameRate = 60;
         }
 
         private void Update()
@@ -83,7 +85,7 @@ namespace Monobeh.Player
             var moveVector = new Vector3(xAxis, 0, yAxis);
             var zero = moveVector.Equals(Vector3.zero);
             
-            CharacterController.Move(moveVector / 2);
+            CharacterController.Move(moveVector * 10 * Time.deltaTime);
 
             Animator.SetBool("Walk_forward", !zero);
             
@@ -120,9 +122,18 @@ namespace Monobeh.Player
             }
         }
 
+        [ContextMenu("Over")]
         private void GameOver()
         {
+            CanInteractive = false;
+            Invoke("PlayOver", 0.75f);
+        }
+
+        private void PlayOver()
+        {
+            PlayableDirector.gameObject.SetActive(true);
             PlayableDirector.Play();
+            gameObject.SetActive(false);
             Debug.LogWarning("GAME IS OVER");
         }
     }
