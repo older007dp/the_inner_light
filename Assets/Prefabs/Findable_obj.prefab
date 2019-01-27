@@ -281,7 +281,8 @@ PrefabInstance:
     - target: {fileID: 42055762, guid: ec2a6eb55d6bac64f8e60e43c3cb20ad, type: 3}
       propertyPath: ItemData.Image
       value: 
-      objectReference: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 21300000, guid: a0d0dfad2a367a44c849b7f5240a104d,
+        type: 3}
     - target: {fileID: 42055762, guid: ec2a6eb55d6bac64f8e60e43c3cb20ad, type: 3}
       propertyPath: ItemData.PreviewImage
       value: 

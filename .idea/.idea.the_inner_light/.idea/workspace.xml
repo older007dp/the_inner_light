@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/ItemPlace.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+            <state relative-caret-position="128">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="50" />
               <folding>
                 <marker date="1548523961261" expanded="true" signature="6:209" ph="..." />
                 <marker date="1548523961261" expanded="true" signature="261:1015" ph="{...}" />
@@ -83,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monobeh/Item/TargetItem.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="123">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <marker date="1548577905032" expanded="false" signature="6:139" ph="..." />
                 <marker date="1548577905032" expanded="true" signature="163:1043" ph="{...}" />
@@ -127,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/View/ItemView.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <marker date="1548581341779" expanded="false" signature="6:171" ph="..." />
                 <marker date="1548581341779" expanded="true" signature="209:800" ph="{...}" />
@@ -323,12 +323,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548497769730</updated>
       <workItem from="1548497772380" duration="14000" />
-      <workItem from="1548497846855" duration="16160000" />
+      <workItem from="1548497846855" duration="16762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16174000" />
+    <option name="totallyTimeSpent" value="16776000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,23 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ItemPlace.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-          <folding>
-            <marker date="1548523961261" expanded="true" signature="6:209" ph="..." />
-            <marker date="1548523961261" expanded="true" signature="261:1015" ph="{...}" />
-            <marker date="1548523961261" expanded="true" signature="388:443" ph="{...}" />
-            <marker date="1548523961261" expanded="true" signature="490:610" ph="{...}" />
-            <marker date="1548523961261" expanded="true" signature="649:670" ph="{...}" />
-            <marker date="1548523961261" expanded="true" signature="702:1013" ph="{...}" />
-            <marker date="1548523961261" expanded="true" signature="789:829" ph="{...}" />
-            <marker date="1548523961261" expanded="true" signature="866:1007" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monobeh/FollowCamera.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -625,10 +608,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/View/ItemView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <marker date="1548581341779" expanded="false" signature="6:171" ph="..." />
+            <marker date="1548581341779" expanded="true" signature="209:800" ph="{...}" />
+            <marker date="1548581341779" expanded="true" signature="276:798" ph="{...}" />
+            <marker date="1548581341779" expanded="true" signature="468:679" ph="{...}" />
+            <marker date="1548581341779" expanded="true" signature="591:669" ph="{...}" />
+            <marker date="1548581341779" expanded="true" signature="718:792" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monobeh/Item/TargetItem.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="123">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <marker date="1548577905032" expanded="false" signature="6:139" ph="..." />
             <marker date="1548577905032" expanded="true" signature="163:1043" ph="{...}" />
@@ -641,17 +639,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/View/ItemView.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/ItemPlace.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="128">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="50" />
           <folding>
-            <marker date="1548581341779" expanded="false" signature="6:171" ph="..." />
-            <marker date="1548581341779" expanded="true" signature="209:800" ph="{...}" />
-            <marker date="1548581341779" expanded="true" signature="276:798" ph="{...}" />
-            <marker date="1548581341779" expanded="true" signature="468:679" ph="{...}" />
-            <marker date="1548581341779" expanded="true" signature="591:669" ph="{...}" />
-            <marker date="1548581341779" expanded="true" signature="718:792" ph="{...}" />
+            <marker date="1548523961261" expanded="true" signature="6:209" ph="..." />
+            <marker date="1548523961261" expanded="true" signature="261:1015" ph="{...}" />
+            <marker date="1548523961261" expanded="true" signature="388:443" ph="{...}" />
+            <marker date="1548523961261" expanded="true" signature="490:610" ph="{...}" />
+            <marker date="1548523961261" expanded="true" signature="649:670" ph="{...}" />
+            <marker date="1548523961261" expanded="true" signature="702:1013" ph="{...}" />
+            <marker date="1548523961261" expanded="true" signature="789:829" ph="{...}" />
+            <marker date="1548523961261" expanded="true" signature="866:1007" ph="{...}" />
           </folding>
         </state>
       </provider>

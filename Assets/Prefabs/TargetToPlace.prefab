@@ -464,7 +464,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4708129852696193995}
   - component: {fileID: 6532493406794926257}
-  - component: {fileID: 3000420012960855543}
   m_Layer: 10
   m_Name: Polaroid (1)
   m_TagString: Item
@@ -505,22 +504,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 3, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3000420012960855543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4708129852695902187}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ab40f7b976610140aead573db7555f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ItemData:
-    Id: 4
-    Image: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-    PreviewImage: {fileID: 21300000, guid: 7922ba09a188e9946b330073187adfd3, type: 3}
 --- !u!1 &4708129852695902191
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,7 +725,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.76, y: 1.45, z: 2.23}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6982126117196797714
 MonoBehaviour:
