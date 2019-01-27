@@ -12,5 +12,7 @@ namespace Interfaces
 
         void AddItemToInventory(ITargetObject targetObject);
         ItemData ItemData { get; set; }
+
+        void ItemPaced();
     }
 }
