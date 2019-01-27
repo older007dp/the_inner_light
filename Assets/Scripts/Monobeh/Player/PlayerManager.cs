@@ -43,6 +43,10 @@ namespace Monobeh.Player
         [SerializeField] 
         private List<ITargetObject> Inventory = new List<ITargetObject>();
 
+        [SerializeField] private AudioSource AuDuio;
+        [SerializeField] private AudioClip GrabClip;
+        [SerializeField] private AudioClip PutClip;
+        
         private void Awake()
         {
             DependencyManager.Add<IPlayerManager>(this);
@@ -70,8 +74,6 @@ namespace Monobeh.Player
 
         private void Movement()
         {
-
-
             var xAxis = Input.GetAxis("Horizontal");
             var yAxis = Input.GetAxis("Vertical");
         
@@ -95,9 +97,29 @@ namespace Monobeh.Player
             Inventory.Add(targetObject);
 
             ItemsCount = Inventory.Count;
+            
+            AuDuio.PlayOneShot(GrabClip);
         }
 
         public int ItemId { get; set; }
         public ItemData ItemData { get; set; }
+        public int CoutnOfItem = 5;
+        
+        public void ItemPaced()
+        {
+            CoutnOfItem -= 1;
+
+            AuDuio.PlayOneShot(PutClip);
+            
+            if (CoutnOfItem == 0)
+            {
+                GameOver();
+            }
+        }
+
+        private void GameOver()
+        {
+            Debug.LogWarning("GAME IS OVER");
+        }
     }
 }
