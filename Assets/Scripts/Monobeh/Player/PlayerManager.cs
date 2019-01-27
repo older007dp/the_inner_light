@@ -4,6 +4,7 @@ using DataStructures;
 using DefaultNamespace;
 using Interfaces;
 using UnityEngine;
+using UnityEngine.Playables;
 
 namespace Monobeh.Player
 {
@@ -46,6 +47,8 @@ namespace Monobeh.Player
         [SerializeField] private AudioSource AuDuio;
         [SerializeField] private AudioClip GrabClip;
         [SerializeField] private AudioClip PutClip;
+
+        [SerializeField] private PlayableDirector PlayableDirector;
         
         private void Awake()
         {
@@ -119,6 +122,7 @@ namespace Monobeh.Player
 
         private void GameOver()
         {
+            PlayableDirector.Play();
             Debug.LogWarning("GAME IS OVER");
         }
     }
