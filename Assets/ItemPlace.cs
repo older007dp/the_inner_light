@@ -42,7 +42,7 @@ public class ItemPlace : MonoBehaviour, IItemPlace
             TargetGameObject.SetActive(true);
             
             DI.Get<ItemCollectionCreator>().RemoveData(data);
-            DI.Get<IPlayerManager>().ItemPaced();
+            DI.Get<IPlayerManager>().ItemPaced(ItemId);
         }
     }
 }

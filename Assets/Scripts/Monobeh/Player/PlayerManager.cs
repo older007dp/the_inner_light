@@ -43,6 +43,9 @@ namespace Monobeh.Player
         
         [SerializeField] 
         private List<ITargetObject> Inventory = new List<ITargetObject>();
+        
+        [SerializeField]
+        private List<int> Items = new List<int>();
 
         [SerializeField] private AudioSource AuDuio;
         [SerializeField] private AudioClip GrabClip;
@@ -110,8 +113,15 @@ namespace Monobeh.Player
         public ItemData ItemData { get; set; }
         public int CoutnOfItem = 5;
         
-        public void ItemPaced()
+        public void ItemPaced(int id)
         {
+            if (Items.Contains(id))
+            {
+                return;
+            }
+
+            Items.Add(id);
+            
             CoutnOfItem -= 1;
 
             AuDuio.PlayOneShot(PutClip);
